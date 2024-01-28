@@ -73,7 +73,7 @@ body {
    display: grid;
    place-items: center;
    width: 100%;
-   background: url(../assets/ISU-bg.png) no-repeat;
+   background: url(../img/ISU-bg.png) no-repeat;
    background-size: cover;
    border-radius: 0 0 100px 0;
    position: relative;

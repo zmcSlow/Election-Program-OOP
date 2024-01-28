@@ -10,14 +10,14 @@
          href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap"
          rel="stylesheet"
       />
-      <link rel="stylesheet" href="css/style.css" />
-      <script src="js/main.js" defer></script>
+      <link rel="stylesheet" href="./assets/css/style.css" />
+      <script src="./assets/js/main.js" defer></script>
    </head>
    <body>
       <div class="portal">
          <div class="portal__wrapper">
             <div class="portal__wrapper__hero">
-               <img src="assets/ISU-logo.svg" alt="" />
+               <img src="./assets/img/ISU-logo.svg" alt="" />
             </div>
             <form action="#" class="portal__wrapper__form">
                <div class="portal__wrapper__form__wrapper">
