@@ -1,5 +1,5 @@
 <?php
-require_once './includes/config.session.php';
+require_once '../includes/config.session.php';
 
 if (!isset($_SESSION['users']['admin'])) {
     header("Location: ./index.php");

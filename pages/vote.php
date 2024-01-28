@@ -1,5 +1,5 @@
 <?php
-require_once './includes/config.session.php';
+require_once '../includes/config.session.php';
 ?>
 
 <!DOCTYPE html>
