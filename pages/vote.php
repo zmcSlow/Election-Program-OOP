@@ -18,7 +18,7 @@
          <img src="../assets/img/ISU-logo.svg" alt="" />
          <h1>Supreme Student Council Election</h1>
       </header>
-      <form id="myForm" action="./actions/process_vote.php" method="post">
+      <form id="myForm" action="../actions/process_vote.php" method="post">
          <fieldset id="myFieldset">
             <legend>President</legend>
             <label><input type="radio" name="president" value="Zen" /> Zen</label>
