@@ -19,7 +19,7 @@ class Login extends User {
 
         if($this->validateUser($this->userID, $this->password)){
             if ($this->userID === 'admin') {
-                header("Location: ../admin.php?login=success");
+                header("Location: ../pages/admin.php?login=success");
             } else {
                 header("Location: ../pages/vote.php?login=success");
             }
