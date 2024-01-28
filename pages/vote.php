@@ -1,3 +1,7 @@
+<?php
+require_once './includes/config.session.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -102,6 +106,10 @@
                }
             });
       </script>
+
+      <?php
+         var_dump($_SESSION);
+      ?>
 
       <a href="../index.php">Logout</a>
    </body>
