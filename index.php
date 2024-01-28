@@ -16,6 +16,7 @@ require_once './includes/login.view.php';
          rel="stylesheet"
       />
       <link rel="stylesheet" href="./assets/css/style.css" />
+      <link rel="icon" href="../assets/img/ISU-logo.png" type="image/icon type">
       <script src="./assets/js/main.js" defer></script>
    </head>
    <body>

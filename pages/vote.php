@@ -11,6 +11,7 @@
          rel="stylesheet"
       />
       <link rel="stylesheet" href="../assets/css/vote.css" />
+      <link rel="icon" href="../assets/img/ISU-logo.png" type="image/icon type">
    </head>
    <body>
       <header>
@@ -102,6 +103,6 @@
             });
       </script>
 
-      <a href="index.php">Logout</a>
+      <a href="../index.php">Logout</a>
    </body>
 </html>
