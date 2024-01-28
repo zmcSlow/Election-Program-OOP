@@ -1,3 +1,8 @@
+<?php
+require_once './includes/config.session.php';
+require_once './includes/login.view.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -19,7 +24,7 @@
             <div class="portal__wrapper__hero">
                <img src="./assets/img/ISU-logo.svg" alt="" />
             </div>
-            <form action="#" class="portal__wrapper__form">
+            <form action="./includes/login.inc.php" method="post" class="portal__wrapper__form">
                <div class="portal__wrapper__form__wrapper">
                   <div class="portal__wrapper__form__wrapper__title">
                      <h1><span>SSC Election</span> Portal</h1>
@@ -27,12 +32,13 @@
                   </div>
                   <div class="portal__wrapper__form__wrapper__field">
                      <div class="portal__wrapper__form__wrapper__field__input">
-                        <input type="text" id="studno" class="js-input" />
+                        <input type="text" name="userID" id="studno" class="js-input" autocomplete="off"/>
                         <label for="studno">User ID</label>
                      </div>
                      <div class="portal__wrapper__form__wrapper__field__input">
                         <input
                            type="password"
+                           name="pwd"
                            id="acode"
                            class="js-input js-pass"
                         />
