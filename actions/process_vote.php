@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     updateVoteCounters('accountant', $accountant);
 
     // Redirect to the thank you page with selected choices as URL parameters
-    header("Location: ../thankyou.php?president=$president&vicePresident=$vicePresident&secretary=$secretary&treasurer=$treasurer&auditor=$auditor&accountant=$accountant");
+    header("Location: ../pages/thankyou.php?president=$president&vicePresident=$vicePresident&secretary=$secretary&treasurer=$treasurer&auditor=$auditor&accountant=$accountant");
     exit;
 }
 
