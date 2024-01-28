@@ -64,7 +64,7 @@ if (!isset($_SESSION['users']['admin'])) {
 
     <br>
 
-    <a href="index.php">Logout</a>
+    <a href="../index.php">Logout</a>
 </body>
 
 </html>
