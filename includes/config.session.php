@@ -7,3 +7,5 @@ if (!isset($_SESSION['users'])) {
 
 $_SESSION['users']['admin'] = 'admin';
 $_SESSION['users']['22-10195'] = 'password';
+$_SESSION['users']['tits'] = 'malakas';
+
