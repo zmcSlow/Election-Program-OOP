@@ -78,16 +78,7 @@ body {
    border-radius: 0 0 100px 0;
    position: relative;
 }
-/*.portal__wrapper__form::before {
-   content: '';
-   position: absolute;
-   width: 100px;
-   height: 100px;
-   background: #094d35;
-   top: 0;
-   left: 0px;
-   z-index: -1;
-} */
+
 .portal__wrapper__hero img {
    max-width: 350px;
 }
